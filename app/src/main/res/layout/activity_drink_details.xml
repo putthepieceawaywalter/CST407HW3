@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinkDetails"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/drink_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="name placeholder"
+
+        />
+    <TextView
+        android:id="@+id/ingredient_one"
+        android:textSize="20dp"
+        android:layout_below="@id/drink_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingredient1 placeholder"
+        />
+    <TextView
+        android:id="@+id/measure_one"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drink_name"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:text="measure two"
+        android:layout_toRightOf="@id/ingredient_one"/>
+    <TextView
+        android:id="@+id/ingredient_two"
+        android:textSize="20dp"
+        android:layout_below="@id/ingredient_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingredient2 placeholder"
+        />
+    <TextView
+        android:id="@+id/measure_two"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredient_one"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:text="measure two"
+        android:layout_toRightOf="@id/ingredient_two"/>
+
+    <TextView
+        android:id="@+id/ingredient_three"
+        android:textSize="20dp"
+        android:layout_below="@id/ingredient_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingredient 3 placeholder"/>
+
+    <TextView
+        android:id="@+id/measure_three"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredient_two"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="1dp"
+        android:layout_toRightOf="@+id/ingredient_three"
+        android:text="measure three"
+        android:gravity="right"/>
+    <TextView
+        android:id="@+id/ingredient_four"
+        android:textSize="20dp"
+        android:layout_below="@id/ingredient_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingredient 4 placeholder"/>
+    <TextView
+        android:id="@+id/measure_four"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredient_three"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="1dp"
+        android:layout_toRightOf="@+id/ingredient_four"
+        android:text="measure four"
+        android:gravity="right"/>
+
+    <TextView
+        android:id="@+id/ingredient_five"
+        android:textSize="20dp"
+        android:layout_below="@id/ingredient_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingredient 5 placeholder"/>
+
+
+    <TextView
+        android:id="@+id/measure_five"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredient_four"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="1dp"
+        android:layout_toRightOf="@+id/ingredient_five"
+        android:text="measure three"
+        android:gravity="right"/>
+    <TextView
+        android:id="@+id/drink_instructions"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="default instructions"
+        android:layout_below="@id/ingredient_five"
+        />
+
+</RelativeLayout>

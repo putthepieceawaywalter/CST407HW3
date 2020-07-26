@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="api_key">1</string>
+    <string name="drink_results">Search Results</string>
+    <string name="button_text">Search</string>
+    <string name="hint">Drink Search</string>
+
+</resources>
